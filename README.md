@@ -22,7 +22,7 @@ The tracker has a certain waterproof ability, but it has not been specifically t
 ## III.	Cables connection
 The cables are shown in below images. To use it, please connect the wires following the right hand side image, which just need to connect the ethernet cable and power source with the tracker.
 
-<img src="IMG/cable1.png" width="300px"><img src="IMG/cable2.jpg" width="300px">
+<img src="IMG/cable1.png" height="200px"><img src="IMG/cable2.jpg" height="200px">
 
 ## IV.	Connect Solar Tracker
 #### 1.	Local Network
