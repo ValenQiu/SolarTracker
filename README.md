@@ -15,7 +15,7 @@ All power and network are provided by the white plastic box connected to the tra
 
 There are only two servo motors as actuators; one is a 360-degree rotatable 25kg*cm servo motor for controlling the azimuth angle (θ). The other is a 180-degree rotatable 60kg*cm servo motor (the torque is large because the camera/sensor is heavy) for controlling zenith angle (φ). Both motors have a certain waterproof ability. 
 
-<img src="IMG/angle.png" width="300px"><img src="IMG/rotation.jpg" width="300px">
+<img src="IMG/angle.png" height="200px"><img src="IMG/rotation.jpg" height="200px">
 
 The tracker has a certain waterproof ability, but it has not been specifically tested, and it is recommended not to use it in extreme weather or rain. If it must be used in the above weather, it is recommended to take additional waterproof measures.
 
