@@ -30,6 +30,7 @@ The cables are shown in below images. To use it, please connect the wires follow
 
 <img src="IMG/terminal1.png" width="300px">
 Input:
+
 ```
 ifconfig
 ```
