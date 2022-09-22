@@ -28,29 +28,30 @@ The cables are shown in below images. To use it, please connect the wires follow
 #### 1.	Local Network
 1.1.	Connect a monitor to raspberry pi and connect it to the internet. You can also connect your computer to the switch inside the box (highly recommended so that you can know whether the router is working normally, if the router is not well, reboot it until your computer can connect to the Internet). Click the terminal icon (or use `Ctrl + Alt + T`) to open the terminal.
 
-<img src="IMG/" width="300px">
+<img src="IMG/terminal1.png" width="300px">
 Input:
-```linux
+```
 ifconfig
 ```
 The IP address will appear; in this case, the IP address is 192.168.1.23
 
-<img src="IMG/" width="300px">
+<img src="IMG/terminal2.png" width="300px">
 
 1.2.	Open the `VNC viewer`.
 
-<img src="IMG/" width="300px">
+<img src="IMG/vnc1.png" width="150px">
 
 1.3.	Right-click and choose `“New Connection”`.
-<img src="IMG/" width="300px">
+
+<img src="IMG/vnc2.png" width="300px">
 
 1.4.	Input the IP address you get (192.168.1.23 in this case) to the VNC Server, and then click OK. If you want to specify the connection, you can input the name you wish to in the Name.
 
-<img src="IMG/" width="300px">
+<img src="IMG/vnc3.png" width="300px">
 
 As shown in the image below, a new connection has been successfully created.
 
-<img src="IMG/" width="300px">
+<img src="IMG/vnc4.png" width="300px">
 
 1.5.	Double-click the connection icon you just created, input the user name and password into the window, and click OK.
 ```
@@ -58,8 +59,8 @@ Username: pi
 Password: 0
 ```
 
-<img src="IMG/" width="300px">
+<img src="IMG/vnc5.png" width="300px">
 
 1.6.	Connect successfully!
 
-<img src="IMG/" width="300px">
+<img src="IMG/vnc6.png" width="300px">
