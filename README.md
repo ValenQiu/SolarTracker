@@ -113,7 +113,49 @@ fter running the program, GUI will come out.
 
 <img src="IMG/function3.png" weight="300px">
 
-#### User manual for the GUI:
+#### 1. User manual for the GUI:
 
 <img src="IMG/function4.png" height="200px">
+
+##### SCAN
+
+<img src="IMG/function5.png" height="200px">
+
+Click the `SCAN` button, a window will come out. Click OK for starting, and click Cancel to stop it. The Solar Tracker will start with default settings (10 degrees of Zenith and 6 degrees of Azimuth for each step, scan time is 60s (for testing, only 2s). 
+
+<img src="IMG/function6.png" height="200px">
+
+Click the `STOP` button can quit the scanning mode after the initialization. When it is in the scanning mode, other functions will be forbidden.
+“Break Time” is not available now. Input the scan time to adjust the time for scanning (input number should be integer and larger than 0), input the azimuth/zenith interval to adjust the angel interval of each step (azimuth: integer in range 0-360, which preferably 360 can be divisible by the integer; zenith: integer in range 0-90, which preferably 90 can be divisible by the integer).
+After inputting the numbers for adjustment, click “SCAN” again, the Solar Tracker will start with the new settings. You can input a specific one/two, and others will keep in the default setting.
+The initialization angle is Zenith: 90°, Azimuth: 0°, see the definition of zenith and azimuth in part II.
+
+##### MANUAL
+
+Click the `MANUAL` button, wait it for the initialization, those four buttons on the right side of the GUI will be available, and the Solar Tracker can be controlled by those buttons. Each click of the button will let the Solar Tracker move 2° in the corresponding direction.
+
+<img src="IMG/function7.png" height="200px">
+
+When the Solar Tracker is in the manual control mode, other functions will be forbidden, you can click the `MANUAL` button again to quit the mode, and other functions will become available.
+
+
+##### CUSTOM
+
+Type the angle you want in the `Angle` input panel, and click the `CUSTOM` button, the Solar Tracker will turn to the angle. However, the user must enter both azimuth and zenith to set the custom angle, otherwise, it will ask you to input an angle and end this function.
+
+##### RESET
+
+Click the `RESET` button will clean all the input and the setting will become back to the default mode.
+
+`Remark: After testing, please go to the code, and change the scan time to 60s for each step (now is 2s).`
+
+#### 2. Camera
+
+The fisheye camera used here is for simulating the sensor, in case you want to access the image of the camera, here is the way to do it.
+
+In the GUI, click the `SCAN IP ADDRESS`, and wait for a while. It will scan the IP address and MAC address of devices which connected to the local network. 
+
+
+
+
 
