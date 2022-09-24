@@ -9,7 +9,7 @@ Before using it, please download the `VNC viewer` and `remote. it` (or use `remo
 <img src="IMG/SolarTracker.png" width="300px">
 </div>
 
-## I.	Connect method
+## I.	Connect methods
   1.	Direct connection: 
     Connect the raspberry pi with the monitor, mouse, and keyboard
   2.	Remote connection via local network: 
@@ -77,4 +77,43 @@ Password: 0
 1.6.	Connect successfully!
 
 <img src="IMG/vnc6.png" width="300px">
+
+#### 2. Internet
+
+To connect the raspberry conveniently, you can sign up for a VNC account by email and add the raspberry pi to your Team. After doing this, you can directly connect to your raspberry pi, you do not need to be on the same network. As shown in the image. The detail method can be searched online.
+
+<img src="IMG/internet1.png" width="400px">
+
+#### 3. Remote.it
+Besides, it is highly recommended to use Remote.it to detect the internet connection. Besides, it can also get the ethernet IP address. 
+
+<img src="IMG/internet2.png" width="400px">
+
+With the ethernet IP address, you can repeat step 1.4, but input this ethernet IP address, you can also remotely connect the raspberry pi, and no need to connect to the same local network.
+
+<img src="IMG/internet3.png" height="200px">
+
+Link for the video tutorial on applying Remote.it: https://www.youtube.com/watch?v=_B8E1dE5kW4&t=167s. 
+
+Some steps for setting up Remote.it are shown below:
+
+<img src="IMG/internet4.png" height="300px"><img src="IMG/internet5.png" height="300px">
+
+## V. Functions: Scanning, Angle Control, Camera...
+After accessing the raspberry pi, click the system_4.0.py on the desktop, and run it.
+Remarks: please use Geany to run the code. The system is developed under the Geany, and cannot guarantee that other programmers will not report errors.
+
+<img src="IMG/function1.png" weight="300px">
+
+Since the tracker may need further improvement, the code is not encapsulated into an exe.
+
+<img src="IMG/function2.png" weight="300px">
+
+fter running the program, GUI will come out.
+
+<img src="IMG/function3.png" weight="300px">
+
+#### User manual for the GUI:
+
+<img src="IMG/function4.png" height="200px">
 
