@@ -155,6 +155,124 @@ The fisheye camera used here is for simulating the sensor, in case you want to a
 
 In the GUI, click the `SCAN IP ADDRESS`, and wait for a while. It will scan the IP address and MAC address of devices which connected to the local network. 
 
-<img src="IMG/function7.png" height="200px">
+<img src="IMG/camera1.png" height="200px">
+
+After clicking it, go the command window, and wait for the result (because of the system permission restrictions, can only read the result in command window)
+
+<img src="IMG/camera2.png" height="200px">
+
+The MAC address of the fisheye camera is `00:02:d1:93:bd:f9`, therefore, the IP address of it is 192.168.1.22. 
+
+Go to the browser, and then input the IP address, go to the web server of fisheye camera.
+
+<img src="IMG/camera3.png" height="100px">
+
+<img src="IMG/camera4.png" height="200px">
+
+```
+Username: root
+Password: SolarTracker2021
+```
+And you can access the camera, and there are different modes (see below).
+
+<img src="IMG/camera5.png" width="300px">
+
+1O mode:
+
+<img src="IMG/camera6.png" height="100px">
+
+1R mode:
+
+<img src="IMG/camera7.png" height="100px">
+
+1P mode:
+
+<img src="IMG/camera8.png" height="100px">
+
+## VI. Device Information
+
+#### 1. Fisheye Camera
+
+`Vivotewk FE9380-HV`, (see the attached user manual) 
+
+<img src="IMG/information1.png" width="250px">
+
+https://webapi.vivotek.com/api/DownloadCenter/Download/global?p1=%2B9U3MHUKXPMhaaUnmBD60g==&p2=j199RdC0wOvZ8pPmTck8Tg==
+
+The fisheye camera can be powered and connected to the internet through PoE (power over Ethernet) by an ethernet cable. Therefore, in order to use it, a switch with PoE is required (see part 2) and obeys the IEEE 802.3af. Besides, it also needs to use software called `Shepherd` (Shepherd 2.4.0.201) or a web browser to assess the video. 
+
+<img src="IMG/information2.png" width="300px">
+
+The software is in the attached folder, or use this link to download it: https://www.vivotek.com/downloads/product
+
+remarks: `Version 2.4.2.201`
+
+<img src="IMG/information3.png" width="300px">
+
+#### 2. PoE Switch
+
+`TL-SG105PE`
+
+<img src="IMG/information4.png" width="300px">
+
+This is the Poe connection format:
+
+<img src="IMG/information5.png" height="300px">
+
+It also has software to do some settings, the software is attached in the folder as well.
+
+<img src="IMG/information6.png" height="200px">
+
+```
+Username: admin
+Password: admin1
+```
+
+#### 3. Router
+Provided by Mr. Yuen KO, a very old router, sometimes it fails, but usually, it can work well.
+
+```
+Username: (None)
+Password: 0000
+```
+
+<img src="IMG/information7.png" width="300px">
+
+#### 4. MAC Addresses
+
+To identify all devices, which connected in the local network, all MAC addresses are listed here:
+```
+Router: 00:90:cc:9f:c9:40	
+PoE Switch: 60:a4:b7:36:02:d9
+Fisheye Camera: 00:02:d1:93:bd:f9
+```
+
+#### 5. Raspberry Pi GPIO
+
+<img src="IMG/information8.png" width="300px">
+
+## VII. Attatchments
+
+Please check the OneDrive project folder: [Solar Tracker](https://connectpolyu-my.sharepoint.com/:f:/g/personal/20083971d_connect_polyu_hk/EpspQ4KWl9xGvHiiFKB0CRsBsq69lWfJ5u-4mAkCwqDmDQ?e=ZbBOwc)
+
+#### 1. CAD
+`Sheet metal.rar`: .DXF files for sheet metal manufacturing
+`Tracker_Assembly.zip`: SolidWorks files of the tracker, made by sw2021
+`SolarTracker_eDrawing.easm`: eDrawing of the tracker
+
+#### 2. Code
+`SolarTracker.py`: Python code for the GUI & control
+Using `python 2.7.16`
+Need to install libraries: `Tkinter`, `hashlib`, `Adafruit_PCA9685`
+
+#### 3. Fisheye Camera
+Documents for the fisheye camera, includes user manual, datasheet, engineering drawing and shepherd user manual
+
+#### 4. PoE Switch
+Installation package of the software for setting up the PoE switch.
+
+#### 5.	Shepherd_2.4.0.201
+Installation package of the Shepherd_2.4.0.201
+
 
 
