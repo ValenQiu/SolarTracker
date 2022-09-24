@@ -155,7 +155,6 @@ The fisheye camera used here is for simulating the sensor, in case you want to a
 
 In the GUI, click the `SCAN IP ADDRESS`, and wait for a while. It will scan the IP address and MAC address of devices which connected to the local network. 
 
-
-
+<img src="IMG/function7.png" height="200px">
 
 
