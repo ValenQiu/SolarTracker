@@ -1,3 +1,4 @@
+[Solar Tracker Guideline.pdf](https://github.com/ValenQiu/SolarTracker/files/9639236/Solar.Tracker.Guideline.pdf)
 # SolarTracker
 By Valen Qiu, contact: valen.qiu@connect.polyu.hk
 
